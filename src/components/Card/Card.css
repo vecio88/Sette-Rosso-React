@@ -1,0 +1,55 @@
+.aCard {
+    /*width: 181px;
+    height: 252px;*/
+    width: 60px;
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 1px;
+    cursor: pointer;
+}
+
+.aCardRed {
+    background-color: #cd4d47;
+}
+
+.aCardOrange {
+    background-color: #FFAD01;
+}
+
+.aCardYellow {
+    background-color: #E0AA0F;
+}
+
+.aCardGreen {
+    background-color: #07835c;
+}
+
+.aCardBlue {
+    background-color: #0E4A7E;
+}
+
+.aCardIndaco {
+    background-color: #485373;
+}
+
+.aCardPurple {
+    background-color: #604991;
+}
+
+.aCard > div {
+    width: 100%;
+}
+
+.numCentrale {
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 5px;
+}
+
+.ruleOnCardBottom {
+    font-size: 7px;
+    font-weight: bold;
+    text-align: center;
+}
+

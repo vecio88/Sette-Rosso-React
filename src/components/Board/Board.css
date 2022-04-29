@@ -1,0 +1,95 @@
+.boardContainer {
+    background-color: beige;
+    width: 1024px;
+    height: 600px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.frontPlayerContentainer {
+    height: 15%;
+    width: 100%;
+    background-color: darkorchid;
+}
+
+
+
+.boardCenterContentainer {
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.boardSxContentainer {
+    background-color: chocolate;
+    width: 20%;
+    height: 100%;
+}
+
+.boardDxContentainer {
+    background-color: darkgreen;
+    width: 20%;
+    height: 100%;
+}
+
+.boardCenterGame {
+    height: 100%;
+    width: 60%;
+    background-color: gold;
+}
+
+
+
+
+
+/* selfPlayerContentainer */
+
+.selfPlayerContentainer {
+    height: 35%;
+    width: 100%;
+    background-color:deeppink;
+    display: flex;
+    flex-direction: row;
+}
+
+.onBoardHandCard {
+    height: 50%;
+    width: 100%;
+    background-color: rgb(137, 240, 128);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.selfHandCard {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+
+.selfSxContainer, .selfDxContainer {
+    width: 25%;
+    height: 100%;
+    background-color: greenyellow;
+}
+
+.selfCenterContainer {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
